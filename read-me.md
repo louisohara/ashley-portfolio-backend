@@ -2,6 +2,22 @@
 
 ### Sitemap
 
+app.js{
+[loggedIn, setLoggedIn]=useState(false)
+
+   <header>
+      <routes>
+         <route="/admin" element=<LoginPage/>/>
+         <route="/" element=<WorkPage/>/>
+         <route="/films" element=<WorkPage/>/> 
+         <route="/about" element=<AboutPage/>/> 
+         <route="/films/:id" element=<SpecificFilmPage/>/> 
+         <route="/contact" element=<ContactPage/>/> 
+         <route="/news" element=<NewsPage/>/>   
+      </routes>
+   <footer>
+}
+
 List the pages of your app with brief descriptions.
 
 1. About
@@ -123,7 +139,53 @@ api/reviews/:id: edits film review details
 
 ### Auth
 
-Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.
+**Does your project include any login or user profile functionality? If so, describe how authentication/authorization will be implemented.**
+
+App.js on the front end will have 2 views - determined by whether the user is logged in or not. We know whether the user is logged in because they are given a jwt token when logged in, which they otherwise do not possess.
+
+Once admin user is logged in, loggedIn state will be set to true. This state change will conditionally render edit/delete buttons (hence functionality) on every component.
+
+The admin page houses the login function and sets login state to true once logged in. If login state is false (which is default set false on app.js), edit/delete buttons are hidden.
+
+I have also added authenticate middleware on all of the edit/delete routes in order to protect them - so a user who is not logged in can neither see the buttons nor access functionality.
+
+Login process occurs if navigated to the "/admin" page.
+
+app.js {
+[loggedIn, setLoggedIn] = useState(false);
+
+routes{
+"/admin" - if a user is logged in and visits the admin page, loggedIn state is true
+"/" - default view loggedIn state is default (false)
+}
+}
+
+/admin takes you to loginpage -
+
+const login = async () => {
+const token = sessionStorage.getItem("token");
+if (token) {
+setLoggedIn(true);
+navigate('/')
+
+<!-- set loggedin state true and return to normal page -->
+
+} else {
+setFailedAuth(true);
+}
+}
+
+useEffect(() => {
+login();
+}, []);
+
+  <!-- On load of admin page, check if user has a jwt token (has the user logged in?) -->
+
+if (failedAuth) {
+return <Login />
+}
+
+/ - normal view where the user just gets films
 
 ## Roadmap
 
