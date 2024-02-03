@@ -3,7 +3,7 @@ const router = express.Router();
 const knex = require("knex")(require("../knexfile"));
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-require("dotenv");
+require("dotenv").config();
 
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
