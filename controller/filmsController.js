@@ -28,10 +28,11 @@ const addFilm = async (req, res) => {
     bio,
     image,
     description,
+    category,
     role,
     length,
     production,
-    streaming,
+    streamingLogo,
     video,
     link,
   } = req.body;
@@ -41,10 +42,11 @@ const addFilm = async (req, res) => {
       bio,
       image,
       description,
+      category,
       role,
       length,
       production,
-      streaming,
+      streamingLogo,
       video,
       link,
     };
@@ -78,10 +80,7 @@ const deleteFilm = async (req, res) => {
     if (result === 0) {
       return res.status(404).json({ message: `Film with ID ${id} not found` });
     }
-    res
-      .status(204)
-      //   .json({ message: `Successfully deleted film with ID ${id}` })
-      .end();
+    res.status(204).end();
   } catch (error) {
     res.status(500).json({ message: `Error deleting film: ${error}` });
   }
@@ -104,6 +103,7 @@ const getFilmReviews = async (req, res) => {
         id: review.id,
         author: review.author,
         quote: review.quote,
+        logo: review.logo,
         rating: review.rating,
       };
       return condensed;
@@ -132,6 +132,7 @@ const getFilmNominations = async (req, res) => {
         id: nomination.id,
         result: nomination.result,
         category: nomination.category,
+        logo: nomination.logo,
         awardshow: nomination.awardshow,
         link: nomination.link,
       };

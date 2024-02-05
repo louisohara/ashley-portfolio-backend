@@ -9,10 +9,11 @@ exports.up = function (knex) {
     table.text("bio").notNullable();
     table.string("image").notNullable(); // PICS
     table.text("description").nullable();
+    table.string("category").nullable();
     table.string("role").notNullable();
     table.string("length").notNullable();
     table.string("production").nullable();
-    table.string("streaming").nullable();
+    table.string("streamingLogo").nullable();
     table.string("video").nullable(); // PICS
     table.text("link").nullable(); // PICS
     table.timestamp("created_at").defaultTo(knex.fn.now());

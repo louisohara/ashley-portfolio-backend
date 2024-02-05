@@ -10,13 +10,14 @@ const getReviews = async (req, res) => {
 };
 
 const addReview = async (req, res) => {
-  const { film_id, author, quote, rating } = req.body;
+  const { film_id, author, quote, rating, logo } = req.body;
   try {
     const newReview = {
       film_id,
       author,
       quote,
       rating,
+      logo,
     };
     const [id] = await knex("reviews").insert(newReview).returning("id");
     const insertedReview = await knex("reviews").where({ id }).first();

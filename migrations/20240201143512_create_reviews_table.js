@@ -8,6 +8,7 @@ exports.up = function (knex) {
     table.integer("film_id").unsigned();
     table.string("author").notNullable();
     table.text("quote").notNullable();
+    table.string("logo").nullable();
     table.integer("rating").nullable();
     table.timestamp("created_at").defaultTo(knex.fn.now());
     table

@@ -9,6 +9,7 @@ exports.up = function (knex) {
     table.string("result").notNullable();
     table.string("category").notNullable();
     table.string("awardshow").notNullable();
+    table.string("logo").nullable();
     table.string("link").notNullable();
     table.timestamp("created_at").defaultTo(knex.fn.now());
     table

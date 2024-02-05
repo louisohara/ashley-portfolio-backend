@@ -10,7 +10,7 @@ const getNominations = async (req, res) => {
 };
 
 const addNomination = async (req, res) => {
-  const { film_id, result, category, awardshow, link } = req.body;
+  const { film_id, result, category, awardshow, link, logo } = req.body;
   try {
     const newNomination = {
       film_id,
@@ -18,6 +18,7 @@ const addNomination = async (req, res) => {
       category,
       awardshow,
       link,
+      logo,
     };
     const [id] = await knex("nominations")
       .insert(newNomination)
