@@ -9,8 +9,8 @@ const nominationsRouter = require("./routes/nominationsRouter");
 const reviewsRouter = require("./routes/reviewsRouter");
 const collaboratorsRouter = require("./routes/collaboratorsRouter");
 app.use(express.json());
-app.use(express.static("public"));
 app.use(cors());
+app.use(express.static("public"));
 
 app.use("/auth", authRouter);
 app.use("/api/users", usersRouter);
