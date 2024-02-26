@@ -21,7 +21,22 @@ const getFilm = async (req, res) => {
     res.status(500).json({ message: `Error retrieving film: ${error}` });
   }
 };
-
+// getClients = async (req, res) => {
+//   try {
+//     const films = await knex("films").select("*");
+//     if (films) {
+//       const filmsReduced = films.map((film) => {
+//         const condensed = {
+//           client: film.streamingLogo,
+//         };
+//         return condensed;
+//       });
+//       res.status(200).json(filmsReduced);
+//     }
+//   } catch (error) {
+//     res.status(500).json({ message: `Error retrieving films: ${error}` });
+//   }
+// };
 const addFilm = async (req, res) => {
   const {
     title,
@@ -172,6 +187,7 @@ const getFilmCollaborators = async (req, res) => {
     });
   }
 };
+
 module.exports = {
   getFilms,
   getFilm,
@@ -181,4 +197,5 @@ module.exports = {
   getFilmReviews,
   getFilmNominations,
   getFilmCollaborators,
+  // getFilmClients,
 };

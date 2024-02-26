@@ -8,12 +8,45 @@ const getNominations = async (req, res) => {
     res.status(500).json({ message: `Error retrieving nominations: ${error}` });
   }
 };
+const getUniqueNominations = async (req, res) => {
+  try {
+    const nominations = await knex("nominations").select("*");
+    if (nominations) {
+      const unique = [];
+      const nominationsFiltered = nominations.filter((nomination) => {
+        if (
+          !unique.includes(nomination.logo) &&
+          !unique.includes(nomination.link)
+        ) {
+          unique.push(nomination.logo);
+          unique.push(nomination.link);
+          return true;
+        }
+        return false;
+      });
+      const nominationsReduced = nominationsFiltered.map((nomination) => {
+        const condensed = {
+          id: nomination.id,
+          category: nomination.category,
+          logo: nomination.logo,
+          link: nomination.link,
+        };
+        return condensed;
+      });
+      res.status(200).json(nominationsReduced);
+    }
+  } catch (error) {
+    res.status(500).json({ message: `Error retrieving nominations: ${error}` });
+  }
+};
 
 const addNomination = async (req, res) => {
-  const { film_id, result, category, awardshow, link, logo } = req.body;
+  const { user_id, film_id, result, category, awardshow, link, logo } =
+    req.body;
   try {
     const newNomination = {
       film_id,
+      user_id,
       result,
       category,
       awardshow,
@@ -69,4 +102,5 @@ module.exports = {
   addNomination,
   editNomination,
   deleteNomination,
+  getUniqueNominations,
 };

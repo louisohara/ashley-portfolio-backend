@@ -5,6 +5,7 @@ const authenticate = require("../middleware/authenticate");
 
 router.get("/", filmsController.getFilms);
 router.get("/:id", filmsController.getFilm);
+// router.get("/clients", filmsController.getFilmClients);
 router.post("/", authenticate, filmsController.addFilm);
 router.put("/:id", authenticate, filmsController.editFilm);
 router.delete("/:id", authenticate, filmsController.deleteFilm);

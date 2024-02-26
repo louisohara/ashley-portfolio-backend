@@ -11,13 +11,13 @@ module.exports = [
     length: "(3x60 mins’)",
     production: "STORY FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://vimeo.com/905528800/b44b2d56f8?share=copy",
+    video: "https://player.vimeo.com/video/905528800?h=b44b2d56f8&autoplay=1",
     link: "https://www.channel4.com/programmes/to-catch-a-copper",
   },
   {
     id: 2,
     title: "The Greatest Show Never Made",
-    bio: "In 2002 one man set out to change reality TV for ever. For 30 people, his dream became a nightmare.",
+    bio: "In 2002 one man set out to change reality TV forever. For 30 people, his dream became a nightmare.",
     image: "http://localhost:8080/images/greatest.jpeg",
     category: "directing",
 
@@ -27,7 +27,7 @@ module.exports = [
     length: "(3x60 mins’)",
     production: "FACTUAL FICTION",
     streamingLogo: "http://localhost:8080/icons/prime.png",
-    video: "https://youtu.be/FgeOCEOcCRI",
+    video: "https://www.youtube.com/embed/FgeOCEOcCRI?si=3IrUtzSJR77pHVia",
     link: "https://www.amazon.co.uk/gp/video/detail/0KV1F7KVFHC0E34P2YFT37L841?ref_=dvm_uk_sl_tit_mkw_sMKzcyIfoJl-dc&mrntrk=pcrid_676860048396_slid__pgrid_152897354325_pgeo_9046005_x__adext__ptid_kwd-2224856562613&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBgzzpMZ6aWY9IC3yCupayqZ34lSmgsDpreAaptP-jMaJCRaTIlM9TBoCBxwQAvD_BwE&gclsrc=aw.ds",
   },
   {
@@ -43,14 +43,14 @@ module.exports = [
     length: "(1x60 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://vimeo.com/467175685",
+    video: "https://player.vimeo.com/video/467175685?h=358c66334b&autoplay=1",
     link: "https://www.channel4.com/programmes/damilola-the-boy-next-door",
   },
   {
     id: 4,
     title: "The Real Eastenders",
     bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire. Now the docks are long-gone, but the old ways of life carry on for these Real Eastenders, many of whom trace their Island roots back six generations. ",
-    image: "http://localhost:8080/images/damilola.jpeg",
+    image: "http://localhost:8080/images/eastenders.jpeg",
     description:
       "Filmed over Summer 2019, first time director Ashley Francis-Roy presents the world as seen by children growing up on the Island’s council estates.\nWith narration and original music by local singer songwriter Hak Baker, this moving film finds the innocence of childhood alive and well in the least expected of places.",
     role: "SHOOTING PRODUCER/ DIRECTOR",
@@ -59,7 +59,7 @@ module.exports = [
     length: "(1x60 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://vimeo.com/426281076",
+    video: "https://player.vimeo.com/video/426281076?h=b328a99149&autoplay=1",
     link: "https://www.channel4.com/programmes/the-real-eastenders",
   },
   {
@@ -73,7 +73,7 @@ module.exports = [
     category: "directing",
 
     length: "(3 mins’)",
-    video: "https://vimeo.com/339962291",
+    video: "https://player.vimeo.com/video/339962291?h=82e2214ea6&autoplay=1",
   },
   {
     id: 6,
@@ -104,7 +104,7 @@ module.exports = [
     length: "(3x3 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://vimeo.com/439760997/dbf083ad7e?share=copy",
+    video: "https://player.vimeo.com/video/439760997?h=dbf083ad7e&autoplay=1",
   },
   {
     id: 8,
@@ -133,7 +133,7 @@ module.exports = [
     length: "(1×60 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://vimeo.com/227889175",
+    video: "https://player.vimeo.com/video/227889175?h=fcd62bd2c6&autoplay=1",
   },
   {
     id: 10,
@@ -184,6 +184,6 @@ module.exports = [
       "Across a career spanning more than 40 years, Gormley has used sculpture as a means to examine the human condition. He explains how his strict Catholic childhood and his subsequent search for enlightenment in India influenced his decision to become a sculptor. 'If you are brought up a Catholic you may lose your Catholicism but the fact is it has marked you for life. And the need to replace its belief system with something else becomes your life's work.'\nImagine shows rare archive footage of the creation of Gormley's key works, including the sculptor being fully encased in plaster to create casts of his own body, as well as footage of the installation of the Angel of the North. We also follow exhibitions this year in Paris, Florence and on Lundy Island.",
     role: "RESEARCHER",
     length: "(1×60 mins’)",
-    production: "http://localhost:8080/icons/bbc1.png",
+    streamingLogo: "http://localhost:8080/icons/bbc1.png",
   },
 ];

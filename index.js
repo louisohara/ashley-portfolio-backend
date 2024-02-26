@@ -8,11 +8,14 @@ const filmsRouter = require("./routes/filmsRouter");
 const nominationsRouter = require("./routes/nominationsRouter");
 const reviewsRouter = require("./routes/reviewsRouter");
 const collaboratorsRouter = require("./routes/collaboratorsRouter");
+const clientRouter = require("./routes/clientRouter");
+
 app.use(express.json());
 app.use(cors());
 app.use(express.static("public"));
 
 app.use("/auth", authRouter);
+app.use("/api/clients", clientRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/films", filmsRouter);
 app.use("/api/nominations", nominationsRouter);

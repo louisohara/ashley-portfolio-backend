@@ -129,4 +129,14 @@ module.exports = [
 
     link: "https://mailchi.mp/thetvfestival.com/new-voice-awards-shortlist-revealed-482550",
   },
+  {
+    id: 14,
+    user_id: 1,
+    result: "NOMINEE",
+    category: "Breakthrough 2021 UK",
+    awardshow: "BAFTA",
+    logo: "http://localhost:8080/icons/bafta.png",
+
+    link: "https://www.bafta.org/supporting-talent/breakthrough/breakthrough-uk-2021",
+  },
 ];

@@ -5,7 +5,8 @@
 exports.up = function (knex) {
   return knex.schema.createTable("nominations", (table) => {
     table.increments("id").primary();
-    table.integer("film_id").unsigned();
+    table.integer("film_id").unsigned().nullable();
+    table.integer("user_id").unsigned().nullable();
     table.string("result").notNullable();
     table.string("category").notNullable();
     table.string("awardshow").notNullable();
@@ -18,6 +19,11 @@ exports.up = function (knex) {
     table
       .foreign("film_id")
       .references("films.id")
+      .onUpdate("CASCADE")
+      .onDelete("CASCADE");
+    table
+      .foreign("user_id")
+      .references("users.id")
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
   });
