@@ -30,6 +30,8 @@ const getUniqueNominations = async (req, res) => {
           category: nomination.category,
           logo: nomination.logo,
           link: nomination.link,
+          awardshow: nomination.awardshow,
+          result: nomination.result,
         };
         return condensed;
       });

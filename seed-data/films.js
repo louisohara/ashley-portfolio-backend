@@ -7,7 +7,7 @@ module.exports = [
     category: "directing",
     description:
       "Over recent years there has been a growing crisis of trust in policing. \nOver four years, cameras followed cases from the point of view of investigators, accused officers, victims, legal professionals and community leaders. \nThis creates a joined-up picture of the overall system designed to bring corrupt officers to justice as never seen before.",
-    role: "SHOOTING SERIES DIRECTOR",
+    role: "SERIES DIRECTOR",
     length: "(3x60 mins’)",
     production: "STORY FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
@@ -18,7 +18,7 @@ module.exports = [
     id: 2,
     title: "The Greatest Show Never Made",
     bio: "In 2002 one man set out to change reality TV forever. For 30 people, his dream became a nightmare.",
-    image: "http://localhost:8080/images/greatest.jpeg",
+    image: "http://localhost:8080/images/greatest.png",
     category: "directing",
 
     description:
@@ -27,7 +27,8 @@ module.exports = [
     length: "(3x60 mins’)",
     production: "FACTUAL FICTION",
     streamingLogo: "http://localhost:8080/icons/prime.png",
-    video: "https://www.youtube.com/embed/FgeOCEOcCRI?si=3IrUtzSJR77pHVia",
+    video:
+      "https://www.youtube.com/embed/FgeOCEOcCRI?si=3IrUtzSJR77pHVia&autoplay=1",
     link: "https://www.amazon.co.uk/gp/video/detail/0KV1F7KVFHC0E34P2YFT37L841?ref_=dvm_uk_sl_tit_mkw_sMKzcyIfoJl-dc&mrntrk=pcrid_676860048396_slid__pgrid_152897354325_pgeo_9046005_x__adext__ptid_kwd-2224856562613&gclid=CjwKCAiA3aeqBhBzEiwAxFiOBgzzpMZ6aWY9IC3yCupayqZ34lSmgsDpreAaptP-jMaJCRaTIlM9TBoCBxwQAvD_BwE&gclsrc=aw.ds",
   },
   {
@@ -39,7 +40,7 @@ module.exports = [
 
     description:
       "The horrendous and lonely death of ten-year-old Damilola Taylor in the dank stairwell of an estate in Peckham in November 2000 stunned the nation. It seemed to encapsulate a nation mired in moral crisis and a society that was fundamentally broken.\nIn the aftermath of Damilola’s death, the estate was demolished and the families dispersed. Now, twenty years on, Yinka Bokinni explores the devastating impact Damilola’s death had on her community, her area, and the lives of almost everyone she knew, confronting for the first time the impact of a tragic event which the children from the area have never felt able to discuss.\nIn this film, Yinka attempts to reconcile the two versions of her past and try to understand how the warm, loving and happy community she remembers so fondly from her childhood was presented in the media as a crime-ridden “sink estate” that was somehow to blame for the tragic loss of a young life.",
-    role: "SHOOTING PRODUCER/ DIRECTOR",
+    role: "PRODUCER / DIRECTOR",
     length: "(1x60 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
@@ -50,10 +51,10 @@ module.exports = [
     id: 4,
     title: "The Real Eastenders",
     bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire. Now the docks are long-gone, but the old ways of life carry on for these Real Eastenders, many of whom trace their Island roots back six generations. ",
-    image: "http://localhost:8080/images/eastenders.jpeg",
+    image: "http://localhost:8080/images/eastenders.webp",
     description:
       "Filmed over Summer 2019, first time director Ashley Francis-Roy presents the world as seen by children growing up on the Island’s council estates.\nWith narration and original music by local singer songwriter Hak Baker, this moving film finds the innocence of childhood alive and well in the least expected of places.",
-    role: "SHOOTING PRODUCER/ DIRECTOR",
+    role: "PRODUCER / DIRECTOR",
     category: "directing",
 
     length: "(1x60 mins’)",
@@ -66,10 +67,10 @@ module.exports = [
     id: 5,
     title: "Outrage",
     bio: "Retired Solicitor Tony Bennett is outraged by a lot of things, but nothing winds him up more than the metric system. He’s impassioned for imperial and is doing everything he can to resist the forces of metrication. Now he’s travelling over 200 miles from his bungalow in Shropshire to put his hometown of Bournemouth back in imperial order - a true metric martyr.",
-    image: "http://localhost:8080/images/outrage.jpeg",
+    image: "http://localhost:8080/images/outrage.webp",
     description:
       "This film was made for Channel 4’s First Cut Pitch at the Sheffield Documentary Festival 2019. Five finalists were chosen from over 70 applicants. We were given an identical brief: to shoot and edit a three-minute film based on the idea of outrage. It was up to us how we interpreted this brief and to demonstrate directorial talent.\nI was selected unanimously by the judges as the winner of the pitch and subsequently was awarded a 1x60’ First Cut commission, a one month paid development, a mentorship with an indie and a week’s training at the National Film and Television School.",
-    role: "SHOOTING PRODUCER/ DIRECTOR",
+    role: "PRODUCER / DIRECTOR",
     category: "directing",
 
     length: "(3 mins’)",
@@ -88,7 +89,8 @@ module.exports = [
     length: "(6x30 mins’)",
     production: "7WONDER",
     streamingLogo: "http://localhost:8080/icons/bbc3.png",
-    video: "https://www.youtube.com/embed/Wn0hFu9e35Q?si=jC3oJexT_I81jLO-",
+    video:
+      "https://www.youtube.com/embed/Wn0hFu9e35Q?si=jC3oJexT_I81jLO-&autoplay=1",
     link: "https://www.bbc.co.uk/iplayer/episodes/p07bn33z/hometown-a-killing",
   },
   {
@@ -98,7 +100,7 @@ module.exports = [
     image: "http://localhost:8080/images/racist.jpeg",
     description:
       "It’s easy not to be racist, right? Think again as Chanté Joseph breaks down the nuances of race in Britain with her revealing insights into how non-black people must try harder in their quest to learn How Not To Be Racist.",
-    role: "SHOOTING PRODUCER/DIRECTOR",
+    role: "PRODUCER /DIRECTOR",
     category: "directing",
 
     length: "(3x3 mins’)",
@@ -119,7 +121,8 @@ module.exports = [
     length: "(3×60 mins’)",
     production: "ACME FILMS",
     streamingLogo: "http://localhost:8080/icons/channel4.png",
-    video: "https://www.youtube.com/embed/reGPI2RNp_c?si=4GWNHNxigGyCc9I2",
+    video:
+      "https://www.youtube.com/embed/reGPI2RNp_c?si=4GWNHNxigGyCc9I2&autoplay=1",
     link: "https://www.channel4.com/programmes/adventures-in-futureland",
   },
   {
@@ -127,7 +130,7 @@ module.exports = [
     title: "Public Enemies: Jay Z & Kanye West",
     bio: "A biography film exploring the life and work of the two most significant hip-hop artists alive and investigating their impact on music, fashion, business, and politics.",
     image: "http://localhost:8080/images/enemies.jpeg",
-    role: "SHOOTING ASSISTANT PRODUCER",
+    role: "ASSISTANT PRODUCER",
     category: "producing",
 
     length: "(1×60 mins’)",
@@ -142,7 +145,7 @@ module.exports = [
     image: "http://localhost:8080/images/woody.jpeg",
     description:
       "His is a tale of survival, creativity and reinvention. He is proof that there is always potential for change and even in 2019, more than fifty years after his death, he is challenging Donald Trump from beyond the grave.\nWith enormous influence on successive generations of musicians like Bob Dylan, Bruce Springsteen, Joan Baez and Billy Bragg, this film proves he has a true place in 21st-century culture.",
-    role: "SHOOTING ASSISTANT PRODUCER",
+    role: "ASSISTANT PRODUCER",
     category: "producing",
 
     length: "(1×60 mins’)",
@@ -156,7 +159,7 @@ module.exports = [
     image: "http://localhost:8080/images/boogie.jpeg",
     description:
       "Interviews with Keith Richards, Van Morrison, Carlos Santana, Bonnie Raitt and Robert Cray tell how an illiterate man from the rural and impoverished backwaters of the Mississippi Delta influenced their own musical journey. We reveal his part in bringing the Blues to a new generation of young British musicians and how, in turn, those musicians introduced young, mainstream Americans to their own cultural heritage.\nHis is an astonishing tale of survival and creativity, ingenuity and reinvention - of a man who became a superstar against extraordinary odds. It is also the story of modern America, portrayed through the incredible and touching journey of a singer-songwriter who has left an indelible mark on today’s music.",
-    role: "SHOOTING ASSISTANT PRODUCER",
+    role: "ASSISTANT PRODUCER",
     category: "producing",
 
     length: "(1×60 mins’)",
@@ -173,7 +176,8 @@ module.exports = [
     length: "(4×30 mins’)",
     production: "PULSE FILMS/ ICONOCLAST",
     streamingLogo: "http://localhost:8080/icons/bbc2.png",
-    video: "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25",
+    video:
+      "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25&autoplay=1",
   },
   {
     id: 13,
