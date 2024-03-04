@@ -3,7 +3,7 @@ module.exports = [
     id: 1,
     film_id: 1,
     author: "The Observer",
-    logo: "http://localhost:8080/icons/observer.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/observer.svg",
     quote:
       "It's the police as you've never seen them before (and you won't do again)",
   },
@@ -25,7 +25,7 @@ module.exports = [
     id: 4,
     film_id: 1,
     author: "The Daily Mail",
-    logo: "http://localhost:8080/icons/dailymail.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/dailymail.svg",
 
     quote: "A jaw-dropping docuseries",
     rating: 5,
@@ -34,7 +34,7 @@ module.exports = [
     id: 5,
     film_id: 1,
     author: "The Observer",
-    logo: "http://localhost:8080/icons/observer.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/observer.svg",
 
     quote:
       "An eye-opening, damning three-parter on whether the police are capable of investigating their own. It is great public service television.",
@@ -50,7 +50,7 @@ module.exports = [
     id: 7,
     film_id: 2,
     author: "The Independent",
-    logo: "http://localhost:8080/icons/independent.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/independent.svg",
 
     quote:
       "This isn't interested in being just another scammer doc. Riveting, unbelievable, and ultimately hopeful, it's one of the most bizarre yet optimistic documentaries I've ever seen.",
@@ -61,13 +61,13 @@ module.exports = [
     quote:
       "This documentary is surprisingly tender. It uses clever stylistic techniques, including fully recreating the apartment where much of the 'show' was filmed, to tease out a complicated, surprising story about fame and change.",
     author: "New York Times",
-    logo: "http://localhost:8080/icons/newyorktimes.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/newyorktimes.svg",
   },
   {
     id: 9,
     film_id: 2,
     author: "Guardian Weekend",
-    logo: "http://localhost:8080/icons/guardian.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/guardian.svg",
 
     quote: "Mind-bendingly outrageous. A textural time machine.",
   },
@@ -75,7 +75,7 @@ module.exports = [
     id: 10,
     film_id: 2,
     author: "The Guardian",
-    logo: "http://localhost:8080/icons/guardian.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/guardian.svg",
 
     quote:
       "A wonderful, stylish look at a reality TV debacle. The whole documentary is suffused with several rare things; gentleness, consideration and maybe even forgiveness. It is, altogether, rather wonderful.",
@@ -85,7 +85,7 @@ module.exports = [
     id: 11,
     film_id: 2,
     author: "Radio Times",
-    logo: "http://localhost:8080/icons/radiotimes.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/radiotimes.png",
 
     quote: "A dark and fascinating tale of ambition and fame.",
   },
@@ -93,7 +93,7 @@ module.exports = [
     id: 12,
     film_id: 2,
     author: "The Telegraph",
-    logo: "http://localhost:8080/icons/telegraph.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/telegraph.svg",
 
     quote: "A dark and fascinating tale of ambition and fame.",
   },
@@ -108,7 +108,7 @@ module.exports = [
     id: 14,
     film_id: 3,
     author: "Grierson Trust",
-    logo: "http://localhost:8080/icons/griersontrust.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/griersontrust.svg",
 
     quote:
       "Yinka was a compelling presence, offering a nuanced exploration of loss and trauma. This was a deeply personal and original film about what happens when you bury grief",
@@ -117,7 +117,7 @@ module.exports = [
     id: 15,
     film_id: 3,
     author: "The Sunday Telegraph",
-    logo: "http://localhost:8080/icons/sundaytelegraph.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/sundaytelegraph.png",
 
     quote:
       "This is a powerful and captivating film. A fiercely honest reflection on a terrible tragedy.",
@@ -126,7 +126,7 @@ module.exports = [
     id: 16,
     film_id: 3,
     author: "The Guardian",
-    logo: "http://localhost:8080/icons/guardian.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/guardian.svg",
 
     quote:
       "Yinka Bokinni does a brilliantly sensitive job... Uplifting and redemptive.... The powerful truth behind the headlines",
@@ -136,7 +136,7 @@ module.exports = [
     id: 17,
     film_id: 3,
     author: "The Daily Telegraph",
-    logo: "http://localhost:8080/icons/telegraph.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/telegraph.svg",
 
     quote:
       "This raw and powerful film was a subtle, moving look at class and community, loss and trauma. For a film about the loss of a young life, it was somehow uplifting and redemptive.",
@@ -146,7 +146,7 @@ module.exports = [
     id: 18,
     film_id: 3,
     author: "Financial Times",
-    logo: "http://localhost:8080/icons/financialtimes.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/financialtimes.svg",
 
     quote: "A sensitive portrait of widespread trauma",
     rating: 4,
@@ -155,7 +155,7 @@ module.exports = [
     id: 19,
     film_id: 4,
     author: "The Telegraph",
-    logo: "http://localhost:8080/icons/telegraph.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/telegraph.svg",
 
     quote:
       "An engaging combination of stark reality and lightly mythologised history, Ashley Francis-Roy’s documentary is humane and insightful.\n\nMoving without being sentimental, funny without being crass, it’s a revealing glimpse of a vanishing world... this deserves a series.",
@@ -164,7 +164,7 @@ module.exports = [
     id: 20,
     film_id: 4,
     author: "Radio Times",
-    logo: "http://localhost:8080/icons/radiotimes.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/radiotimes.png",
 
     quote: "A vivid portrait of a generation facing an uncertain future.",
   },
@@ -172,7 +172,7 @@ module.exports = [
     id: 21,
     film_id: 4,
     author: "TV Times",
-    logo: "http://localhost:8080/icons/times.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/times.svg",
 
     quote: "A moving look at childhood innocence",
   },
@@ -193,7 +193,7 @@ module.exports = [
     id: 24,
     film_id: 6,
     author: "Financial Times",
-    logo: "http://localhost:8080/icons/financialtimes.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/financialtimes.svg",
 
     quote: "An unflinching look at the faultlines of a Muslim community",
     rating: 5,
@@ -202,7 +202,7 @@ module.exports = [
     id: 25,
     film_id: 6,
     author: "Daily Mail",
-    logo: "http://localhost:8080/icons/dailymail.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/dailymail.svg",
 
     quote:
       "Hometown was truly shocking, a chilling indictment of how drugs crime has unleashed casual violence on ordinary streets across Britain.",
@@ -212,7 +212,7 @@ module.exports = [
     id: 26,
     film_id: 9,
     author: "Noisey",
-    logo: "http://localhost:8080/icons/noisey.svg",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/noisey.svg",
 
     quote: "This is the music television we need",
   },

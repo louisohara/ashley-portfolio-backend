@@ -4,7 +4,7 @@ module.exports = [
     film_id: 3,
     result: "WINNER",
     category: "Best History Documentary",
-    logo: "http://localhost:8080/icons/royaltelevisionsociety.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
 
     awardshow: "Royal Television Society Programme Awards",
     link: "https://rts.org.uk/award/rts-programme-awards-2021",
@@ -15,7 +15,7 @@ module.exports = [
     result: "WINNER",
     category: "Debut Presenter Award",
     awardshow: "Edinburgh TV Festival's New Voice Awards",
-    logo: "http://localhost:8080/icons/ETV.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/ETV.png",
 
     link: "https://www.thetvfestival.com/talent-schemes/newvoiceawards/nva-individual-awards-2021/",
   },
@@ -25,7 +25,7 @@ module.exports = [
     result: "WINNER",
     category: "Best Presenter",
     awardshow: "Grierson Awards",
-    logo: "http://localhost:8080/icons/griersonawards.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/griersonawards.png",
 
     link: "https://griersontrust.org/grierson-awards/the-grierson-awards/nominations/",
   },
@@ -35,7 +35,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Best Documentary",
     awardshow: "Edinburgh TV Awards",
-    logo: "http://localhost:8080/icons/ETV.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/ETV.png",
 
     link: "https://www.thetvfestival.com/whats-on/edinburgh-tv-awards-2021/",
   },
@@ -45,7 +45,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Best Presenter",
     awardshow: "Royal Television Society Programme Awards",
-    logo: "http://localhost:8080/icons/royaltelevisionsociety.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
 
     link: "https://rts.org.uk/award/rts-programme-awards-2021",
   },
@@ -55,7 +55,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Best History Documentary",
     awardshow: "Grierson Awards",
-    logo: "http://localhost:8080/icons/griersonNomination.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/griersonNomination.png",
 
     link: "https://griersontrust.org/grierson-awards/the-grierson-awards/nominations/",
   },
@@ -65,7 +65,7 @@ module.exports = [
     result: "HIGHLY COMMENDED",
     category: "Best Documentary",
     awardshow: "Broadcast Awards",
-    logo: "http://localhost:8080/icons/broadcastawards.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/broadcastawards.png",
 
     link: "https://broadcastawards.co.uk/winners",
   },
@@ -75,7 +75,7 @@ module.exports = [
     result: "WINNER",
     category: "Debut Director Award",
     awardshow: "Edinburgh TV Festival's New Voice Awards",
-    logo: "http://localhost:8080/icons/ETV.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/ETV.png",
 
     link: "https://www.thetvfestival.com/talent-schemes/newvoiceawards/nva-individual-awards-2021/",
   },
@@ -85,7 +85,7 @@ module.exports = [
     result: "WINNER",
     category: "Best Presenter",
     awardshow: "Royal Television Society Programme Awards",
-    logo: "http://localhost:8080/icons/royaltelevisionsociety.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
 
     link: "https://rts.org.uk/award/rts-programme-awards-2020-partnership-audio-network",
   },
@@ -95,7 +95,7 @@ module.exports = [
     result: "WINNER",
     category: "Best Presenter",
     awardshow: "Grierson Documentary Awards",
-    logo: "http://localhost:8080/icons/griersonawards.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/griersonawards.png",
 
     link: "https://griersontrust.org/assets/files/awards/programmes/Grierson-2020-the-British-Documentary-Awards-programme.pdf",
   },
@@ -105,7 +105,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Best Documentary Series",
     awardshow: "Royal Television Society Programme Awards",
-    logo: "http://localhost:8080/icons/royaltelevisionsociety.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
 
     link: "https://rts.org.uk/award/rts-programme-awards-2020-partnership-audio-network",
   },
@@ -115,7 +115,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Best Documentary Series",
     awardshow: "Grierson Documentary Awards",
-    logo: "http://localhost:8080/icons/griersonNomination.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/griersonNomination.png",
 
     link: "https://griersontrust.org/assets/files/awards/programmes/Grierson-2020-the-British-Documentary-Awards-programme.pdf",
   },
@@ -125,7 +125,7 @@ module.exports = [
     result: "NOMINATION FOR Chanté JOSEPH",
     category: "Debut Presenter Award",
     awardshow: "Edinburgh TV Festival's New Voice Awards",
-    logo: "http://localhost:8080/icons/royaltelevisionsociety.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
 
     link: "https://mailchi.mp/thetvfestival.com/new-voice-awards-shortlist-revealed-482550",
   },
@@ -135,7 +135,7 @@ module.exports = [
     result: "NOMINEE",
     category: "Breakthrough 2021 UK",
     awardshow: "BAFTA",
-    logo: "http://localhost:8080/icons/bafta.png",
+    logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bafta.png",
 
     link: "https://www.bafta.org/supporting-talent/breakthrough/breakthrough-uk-2021",
   },
