@@ -155,22 +155,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/channel4.png",
     video: "https://player.vimeo.com/video/227889175?h=fcd62bd2c6&autoplay=1",
   },
-  {
-    id: 11,
-    title: "Black is the New Black",
-    bio: "Exceptional figures from politics, business, sport, science and more share their insights into being black and British today, how they got where they are, and thoughts on what the future holds.",
-    image:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/black.jpeg",
 
-    role: "RESEARCHER",
-    category: "producing",
-    length: "(4×30 mins’)",
-    production: "PULSE FILMS/ ICONOCLAST",
-    streamingLogo:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc2.png",
-    video:
-      "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25&autoplay=1",
-  },
   {
     id: 10,
     title: "Woody Guthrie: Three Chords and the Truth",
@@ -188,7 +173,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
   },
   {
-    id: 12,
+    id: 11,
     title: "John Lee Hooker: King of the Boogie",
     bio: "John Lee Hooker was one of the greatest bluesmen of the 20th century. Born into poverty and racial segregation, he lived through a monumental time in American history. This is the story of a cultural icon, and his far-reaching impact on popular music, told in his own words and those of his family and closest collaborators.",
     image:
@@ -204,7 +189,22 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
     video: "https://player.vimeo.com/video/685543623?h=eba7f3eee4&autoplay=1",
   },
+  {
+    id: 12,
+    title: "Black is the New Black",
+    bio: "Exceptional figures from politics, business, sport, science and more share their insights into being black and British today, how they got where they are, and thoughts on what the future holds.",
+    image:
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/black.jpeg",
 
+    role: "RESEARCHER",
+    category: "producing",
+    length: "(4×30 mins’)",
+    production: "PULSE FILMS/ ICONOCLAST",
+    streamingLogo:
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc2.png",
+    video:
+      "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25&autoplay=1",
+  },
   {
     id: 13,
     title: "imagine... Antony Gormley",
