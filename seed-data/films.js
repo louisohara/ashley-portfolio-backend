@@ -196,6 +196,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/black.jpeg",
 
     role: "RESEARCHER",
+    category: "producing",
     length: "(4×30 mins’)",
     production: "PULSE FILMS/ ICONOCLAST",
     streamingLogo:
@@ -212,8 +213,9 @@ module.exports = [
     description:
       "Across a career spanning more than 40 years, Gormley has used sculpture as a means to examine the human condition. He explains how his strict Catholic childhood and his subsequent search for enlightenment in India influenced his decision to become a sculptor. 'If you are brought up a Catholic you may lose your Catholicism but the fact is it has marked you for life. And the need to replace its belief system with something else becomes your life's work.'\nImagine shows rare archive footage of the creation of Gormley's key works, including the sculptor being fully encased in plaster to create casts of his own body, as well as footage of the installation of the Angel of the North. We also follow exhibitions this year in Paris, Florence and on Lundy Island.",
     role: "RESEARCHER",
+    category: "producing",
     length: "(1×60 mins’)",
     streamingLogo:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc1.png",
   },
 ];
