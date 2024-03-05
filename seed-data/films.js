@@ -156,6 +156,22 @@ module.exports = [
     video: "https://player.vimeo.com/video/227889175?h=fcd62bd2c6&autoplay=1",
   },
   {
+    id: 12,
+    title: "Black is the New Black",
+    bio: "Exceptional figures from politics, business, sport, science and more share their insights into being black and British today, how they got where they are, and thoughts on what the future holds.",
+    image:
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/black.jpeg",
+
+    role: "RESEARCHER",
+    category: "producing",
+    length: "(4×30 mins’)",
+    production: "PULSE FILMS/ ICONOCLAST",
+    streamingLogo:
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc2.png",
+    video:
+      "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25&autoplay=1",
+  },
+  {
     id: 10,
     title: "Woody Guthrie: Three Chords and the Truth",
     bio: "Woody Guthrie is one of America’s legendary songwriters. A voice of the people, he wrote hard-hitting lyrics for a hard-hit nation.",
@@ -188,22 +204,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
     video: "https://player.vimeo.com/video/685543623?h=eba7f3eee4&autoplay=1",
   },
-  {
-    id: 12,
-    title: "Black is the New Black",
-    bio: "Exceptional figures from politics, business, sport, science and more share their insights into being black and British today, how they got where they are, and thoughts on what the future holds.",
-    image:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/black.jpeg",
 
-    role: "RESEARCHER",
-    category: "producing",
-    length: "(4×30 mins’)",
-    production: "PULSE FILMS/ ICONOCLAST",
-    streamingLogo:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc2.png",
-    video:
-      "https://www.youtube.com/embed/wHONzPRUuUk?si=I6bIpbjE96Pwrv25&autoplay=1",
-  },
   {
     id: 13,
     title: "imagine... Antony Gormley",
