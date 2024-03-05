@@ -214,6 +214,6 @@ module.exports = [
     role: "RESEARCHER",
     length: "(1×60 mins’)",
     streamingLogo:
-      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc1.png",
+      "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
   },
 ];
