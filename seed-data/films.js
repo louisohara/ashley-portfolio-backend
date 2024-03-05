@@ -156,7 +156,7 @@ module.exports = [
     video: "https://player.vimeo.com/video/227889175?h=fcd62bd2c6&autoplay=1",
   },
   {
-    id: 12,
+    id: 11,
     title: "Black is the New Black",
     bio: "Exceptional figures from politics, business, sport, science and more share their insights into being black and British today, how they got where they are, and thoughts on what the future holds.",
     image:
@@ -188,7 +188,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/bbc4.png",
   },
   {
-    id: 11,
+    id: 12,
     title: "John Lee Hooker: King of the Boogie",
     bio: "John Lee Hooker was one of the greatest bluesmen of the 20th century. Born into poverty and racial segregation, he lived through a monumental time in American history. This is the story of a cultural icon, and his far-reaching impact on popular music, told in his own words and those of his family and closest collaborators.",
     image:
