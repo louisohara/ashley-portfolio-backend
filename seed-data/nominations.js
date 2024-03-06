@@ -122,7 +122,7 @@ module.exports = [
   {
     id: 13,
     film_id: 7,
-    result: "NOMINATION FOR Chanté JOSEPH",
+    result: "NOMINEE",
     category: "Debut Presenter Award",
     awardshow: "Edinburgh TV Festival's New Voice Awards",
     logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/royaltelevisionsociety.png",
