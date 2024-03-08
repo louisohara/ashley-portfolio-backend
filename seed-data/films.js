@@ -56,7 +56,7 @@ module.exports = [
   {
     id: 4,
     title: "The Real Eastenders",
-    bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire.",
+    bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire...",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/eastenders.webp",
     description:
@@ -74,11 +74,11 @@ module.exports = [
   {
     id: 5,
     title: "Outrage",
-    bio: "Retired Solicitor Tony Bennett is outraged by a lot of things, but nothing winds him up more than the metric system. He’s impassioned for imperial and is doing everything he can to resist the forces of metrication.",
+    bio: "Retired Solicitor Tony Bennett is outraged by a lot of things, but nothing winds him up more than the metric system.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/outrage.webp",
     description:
-      "Now he’s travelling over 200 miles from his bungalow in Shropshire to put his hometown of Bournemouth back in imperial order - a true metric martyr.\nThis film was made for Channel 4’s First Cut Pitch at the Sheffield Documentary Festival 2019. Five finalists were chosen from over 70 applicants. We were given an identical brief: to shoot and edit a three-minute film based on the idea of outrage. It was up to us how we interpreted this brief and to demonstrate directorial talent.\nI was selected unanimously by the judges as the winner of the pitch and subsequently was awarded a 1x60’ First Cut commission, a one month paid development, a mentorship with an indie and a week’s training at the National Film and Television School.",
+      "He’s impassioned for imperial and is doing everything he can to resist the forces of metrication. Now he’s travelling over 200 miles from his bungalow in Shropshire to put his hometown of Bournemouth back in imperial order - a true metric martyr.\nThis film was made for Channel 4’s First Cut Pitch at the Sheffield Documentary Festival 2019. Five finalists were chosen from over 70 applicants. We were given an identical brief: to shoot and edit a three-minute film based on the idea of outrage. It was up to us how we interpreted this brief and to demonstrate directorial talent.\nI was selected unanimously by the judges as the winner of the pitch and subsequently was awarded a 1x60’ First Cut commission, a one month paid development, a mentorship with an indie and a week’s training at the National Film and Television School.",
     role: "PRODUCER / DIRECTOR",
     category: "directing",
 
@@ -88,11 +88,11 @@ module.exports = [
   {
     id: 6,
     title: "Hometown: A Killing",
-    bio: "Award-winning journalist Mobeen Azhar moves back to his hometown of Huddersfield to cover the death of Mohammed Yassar Yaqub. Yaqub was shot dead by police on an M62 slip road on a cold and wet January evening in 2017.",
+    bio: "Award-winning journalist Mobeen Azhar moves back to his hometown of Huddersfield to cover the death of Mohammed Yassar Yaqub.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/hometown.jpeg",
     description:
-      "But with rumours of drug empires, money laundering and high performance cars, just days into his reporting of the case, Mobeen realises that there is a much bigger story in town. With violence on the streets and a town that is terrified to talk, Mobeen attempts to find out where the truth really lies in a journey that forces him to face some ugly truths about his community and hometown.",
+      "Yaqub was shot dead by police on an M62 slip road on a cold and wet January evening in 2017. But with rumours of drug empires, money laundering and high performance cars, just days into his reporting of the case, Mobeen realises that there is a much bigger story in town. With violence on the streets and a town that is terrified to talk, Mobeen attempts to find out where the truth really lies in a journey that forces him to face some ugly truths about his community and hometown.",
     role: "PRODUCER",
     category: "producing",
 
@@ -175,11 +175,11 @@ module.exports = [
   {
     id: 11,
     title: "John Lee Hooker: King of the Boogie",
-    bio: "John Lee Hooker was one of the greatest bluesmen of the 20th century. Born into poverty and racial segregation, he lived through a monumental time in American history. This is the story of a cultural icon, and his far-reaching impact on popular music, told in his own words and those of his family and closest collaborators.",
+    bio: "John Lee Hooker was one of the greatest bluesmen of the 20th century. Born into poverty and racial segregation, he lived through a monumental time in American history.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/boogie.jpeg",
     description:
-      "Interviews with Keith Richards, Van Morrison, Carlos Santana, Bonnie Raitt and Robert Cray tell how an illiterate man from the rural and impoverished backwaters of the Mississippi Delta influenced their own musical journey. We reveal his part in bringing the Blues to a new generation of young British musicians and how, in turn, those musicians introduced young, mainstream Americans to their own cultural heritage.\nHis is an astonishing tale of survival and creativity, ingenuity and reinvention - of a man who became a superstar against extraordinary odds. It is also the story of modern America, portrayed through the incredible and touching journey of a singer-songwriter who has left an indelible mark on today’s music.",
+      "This is the story of a cultural icon, and his far-reaching impact on popular music, told in his own words and those of his family and closest collaborators. \nInterviews with Keith Richards, Van Morrison, Carlos Santana, Bonnie Raitt and Robert Cray tell how an illiterate man from the rural and impoverished backwaters of the Mississippi Delta influenced their own musical journey. We reveal his part in bringing the Blues to a new generation of young British musicians and how, in turn, those musicians introduced young, mainstream Americans to their own cultural heritage.\nHis is an astonishing tale of survival and creativity, ingenuity and reinvention - of a man who became a superstar against extraordinary odds. It is also the story of modern America, portrayed through the incredible and touching journey of a singer-songwriter who has left an indelible mark on today’s music.",
     role: "ASSISTANT PRODUCER",
     category: "producing",
 
