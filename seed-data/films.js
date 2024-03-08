@@ -56,11 +56,11 @@ module.exports = [
   {
     id: 4,
     title: "The Real Eastenders",
-    bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire. Now the docks are long-gone, but the old ways of life carry on for these Real Eastenders, many of whom trace their Island roots back six generations. ",
+    bio: "In the heart of London’s East End, the docks of the Isle of Dogs were once the beating heart of Empire.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/eastenders.webp",
     description:
-      "Filmed over Summer 2019, first time director Ashley Francis-Roy presents the world as seen by children growing up on the Island’s council estates.\nWith narration and original music by local singer songwriter Hak Baker, this moving film finds the innocence of childhood alive and well in the least expected of places.",
+      "Now the docks are long-gone, but the old ways of life carry on for these Real Eastenders, many of whom trace their Island roots back six generations. \nFilmed over Summer 2019, first time director Ashley Francis-Roy presents the world as seen by children growing up on the Island’s council estates.\nWith narration and original music by local singer songwriter Hak Baker, this moving film finds the innocence of childhood alive and well in the least expected of places.",
     role: "PRODUCER / DIRECTOR",
     category: "directing",
 
@@ -74,11 +74,11 @@ module.exports = [
   {
     id: 5,
     title: "Outrage",
-    bio: "Retired Solicitor Tony Bennett is outraged by a lot of things, but nothing winds him up more than the metric system. He’s impassioned for imperial and is doing everything he can to resist the forces of metrication. Now he’s travelling over 200 miles from his bungalow in Shropshire to put his hometown of Bournemouth back in imperial order - a true metric martyr.",
+    bio: "Retired Solicitor Tony Bennett is outraged by a lot of things, but nothing winds him up more than the metric system. He’s impassioned for imperial and is doing everything he can to resist the forces of metrication.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/outrage.webp",
     description:
-      "This film was made for Channel 4’s First Cut Pitch at the Sheffield Documentary Festival 2019. Five finalists were chosen from over 70 applicants. We were given an identical brief: to shoot and edit a three-minute film based on the idea of outrage. It was up to us how we interpreted this brief and to demonstrate directorial talent.\nI was selected unanimously by the judges as the winner of the pitch and subsequently was awarded a 1x60’ First Cut commission, a one month paid development, a mentorship with an indie and a week’s training at the National Film and Television School.",
+      "Now he’s travelling over 200 miles from his bungalow in Shropshire to put his hometown of Bournemouth back in imperial order - a true metric martyr.\nThis film was made for Channel 4’s First Cut Pitch at the Sheffield Documentary Festival 2019. Five finalists were chosen from over 70 applicants. We were given an identical brief: to shoot and edit a three-minute film based on the idea of outrage. It was up to us how we interpreted this brief and to demonstrate directorial talent.\nI was selected unanimously by the judges as the winner of the pitch and subsequently was awarded a 1x60’ First Cut commission, a one month paid development, a mentorship with an indie and a week’s training at the National Film and Television School.",
     role: "PRODUCER / DIRECTOR",
     category: "directing",
 
@@ -112,7 +112,7 @@ module.exports = [
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/racist.jpeg",
     description:
       "It’s easy not to be racist, right? Think again as Chanté Joseph breaks down the nuances of race in Britain with her revealing insights into how non-black people must try harder in their quest to learn How Not To Be Racist.",
-    role: "PRODUCER /DIRECTOR",
+    role: "PRODUCER / DIRECTOR",
     category: "directing",
 
     length: "(3x3 mins’)",
@@ -124,7 +124,7 @@ module.exports = [
   {
     id: 8,
     title: "Adventures in Futureland",
-    bio: "Jamali Maddix meets extraordinary characters making a living in the digital era, from online sex workers to bitcoin millionaires and children supporting their families by uploading viral content",
+    bio: "Jamali Maddix meets extraordinary characters making a living in the digital era, from online sex workers to bitcoin millionaires and children supporting their families by uploading viral content.",
     image:
       "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/images/futureland.jpeg",
     description:
