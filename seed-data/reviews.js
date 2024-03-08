@@ -95,7 +95,7 @@ module.exports = [
     author: "The Telegraph",
     logo: "https://ashley-portfolio-backend-9886eb2ea612.herokuapp.com/icons/telegraph.svg",
 
-    quote: "A dark and fascinating tale of ambition and fame.",
+    quote: "A fascinating morality tale",
   },
   {
     id: 13,
